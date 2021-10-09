@@ -1,0 +1,13 @@
+{
+  "name": "volenday-backend-crud",
+  "version": 2,
+  "builds": [
+    {
+      "src": "./src/index.js",
+      "use": "@now/node-server"
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dist": "/src/index.js" }
+  ]
+}
